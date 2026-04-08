@@ -194,11 +194,11 @@ export default function ImageUploadForm({ onWasteAdd }: ImageUploadFormProps) {
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Analysis failed:', error);
       toast({
         title: 'Analysis Failed',
-        description: 'Could not analyze the image. Please try again.',
+        description: error.message || 'Could not analyze the image. Please try again.',
         variant: 'destructive',
       });
     } finally {
