@@ -9,7 +9,7 @@ export default function PublicFooter() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <Logo className="h-8 w-auto" />
+              <Logo className="h-10 w-auto" />
             </Link>
             <p className="mt-2 text-muted-foreground">AI-powered food wastage reduction.</p>
           </div>
