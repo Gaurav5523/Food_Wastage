@@ -171,14 +171,14 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   whileHover={{ y: -10 }}
                 >
-                  <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow bg-card h-full">
+                  <Card className="text-center border-2 border-transparent shadow-lg hover:shadow-xl hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 bg-card h-full group">
                     <CardHeader>
-                      <div className="mx-auto bg-primary/10 rounded-full p-3 w-fit">
+                      <div className="mx-auto bg-primary/10 rounded-full p-3 w-fit group-hover:bg-primary/20 transition-colors">
                         {feature.icon}
                       </div>
                     </CardHeader>
                     <CardContent>
-                      <h3 className="text-xl font-bold mb-2 font-headline">{feature.title}</h3>
+                      <h3 className="text-xl font-bold mb-2 font-headline group-hover:text-primary transition-colors">{feature.title}</h3>
                       <p className="text-muted-foreground">{feature.description}</p>
                     </CardContent>
                   </Card>
@@ -300,7 +300,7 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: index * 0.2 }}
                   whileHover={{ scale: 1.02 }}
                 >
-                  <Card className="bg-card shadow-lg h-full">
+                  <Card className="bg-card shadow-lg h-full border-2 border-transparent hover:border-primary/30 hover:bg-primary/5 transition-all duration-300 group">
                     <CardContent className="pt-6">
                       <p className="italic text-muted-foreground mb-4">"{testimonial.quote}"</p>
                       <div className="flex items-center">
@@ -309,7 +309,7 @@ export default function Home() {
                           <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                         </Avatar>
                         <div className="ml-4">
-                          <p className="font-bold">{testimonial.name}</p>
+                          <p className="font-bold group-hover:text-primary transition-colors">{testimonial.name}</p>
                           <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                         </div>
                       </div>
