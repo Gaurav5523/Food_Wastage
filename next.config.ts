@@ -113,6 +113,18 @@ const nextConfig: NextConfig = {
         hostname: 'lens.usercontent.google.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.vecteezy.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'chatgpt.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

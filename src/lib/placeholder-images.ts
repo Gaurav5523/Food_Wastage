@@ -32,20 +32,20 @@ export const PlaceHolderImages: PlaceHolderImage[] = [
   },
   {
     id: 'how-it-works-1',
-    imageUrl: 'https://images.unsplash.com/photo-1511317558624-34dfd9957475?q=80&w=800&h=600&auto=format&fit=crop',
+    imageUrl: 'https://static.vecteezy.com/system/resources/thumbnails/054/898/274/small/food-display-on-smartphone-hands-hold-smartphone-displaying-vibrant-food-against-a-kitchen-backdrop-photo.jpg',
     description: 'Taking a photo of food waste.',
     imageHint: 'A person holding a smartphone and taking a photo of a bin containing food scraps in a kitchen.',
   },
   {
     id: 'how-it-works-2',
-    imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&h=600&auto=format&fit=crop',
+    imageUrl: 'https://static.businessworld.in/Untitled%20design%20-%202024-09-13T094209.522_20240913105508_original_image_15.webp',
     description: 'AI processing the image.',
     imageHint: 'A conceptual image of a circuit board with a glowing brain icon, representing AI processing food waste data.',
   },
   {
     id: 'how-it-works-3',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&h=600&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&h=600&auto=format&fit=crop',
     description: 'Implementing a waste reduction plan.',
-    imageHint: 'A chef looking at a tablet in a kitchen, smiling as they see their waste reduction progress.',
+    imageHint: 'A clean, modern web dashboard with colorful bar charts and pie charts showing food waste statistics over time.',
   },
 ];

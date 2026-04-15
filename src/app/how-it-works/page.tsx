@@ -62,6 +62,11 @@ export default function HowItWorksPage() {
                         style={{ objectFit: 'cover' }}
                         data-ai-hint={step.image.imageHint}
                         className="transform hover:scale-105 transition-transform duration-500"
+                        unoptimized={
+                          step.image.imageUrl.includes('vecteezy.com') || 
+                          step.image.imageUrl.includes('businessworld.in') || 
+                          step.image.imageUrl.includes('chatgpt.com')
+                        }
                       />
                     )}
                   </div>
